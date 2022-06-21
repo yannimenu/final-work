@@ -1,5 +1,17 @@
-#letsgo {
+.mainColor {
     background-color: #45C4B0;
+}
+
+.mainTxtColor {
+    color: #45C4B0;
+}
+
+.orangeColor {
+    background-color: orange;
+}
+
+.alternativeGreenColor {
+    background-color: #9AEBA3;
 }
 
 .orangeIcon {
@@ -17,12 +29,24 @@
     color:#DAFDBA;
 }
 
+.textcoloror {
+    color:orange;
+}
+
 .btnColor {
     background-color: #45C4B0;
 }
 
 .shadowBtn {
     box-shadow: 0px 0px 0px black, 0 0 12px #45C4B0;
+}
+
+.shadowBtnOrange {
+    box-shadow: 0px 0px 0px black, 0 0 12px orange;
+}
+
+.shadowBtnAlternative {
+    box-shadow: 0px 0px 0px black, 0 0 12px #9AEBA3;
 }
 
 .shadowBtnBlack {

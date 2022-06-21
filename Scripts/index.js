@@ -6,8 +6,6 @@ $(document).on("click","a#letsgo",function(e){
   }, 800);
 });
 
-
-
 var scrollpos = window.scrollY;
 var header = document.getElementById("header");
 var navcontent = document.getElementById("nav-content");
@@ -21,7 +19,7 @@ document.addEventListener("scroll", function () {
 
   if (scrollpos > 10) {
     header.classList.add("bg-white");
-   
+
     //Use to switch toggleColour colours
     for (var i = 0; i < toToggle.length; i++) {
       toToggle[i].classList.add("text-gray-800");
@@ -32,7 +30,7 @@ document.addEventListener("scroll", function () {
     navcontent.classList.add("bg-white");
   } else {
     header.classList.remove("bg-white");
-   
+
     //Use to switch toggleColour colours
     for (var i = 0; i < toToggle.length; i++) {
       toToggle[i].classList.add("text-white");

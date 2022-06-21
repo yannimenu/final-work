@@ -21,6 +21,7 @@ function check(e) {
     }
   }
 }
+
 function checkParent(t, elm) {
   while (t.parentNode) {
     if (t == elm) {
