@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
   <link rel="stylesheet" href="./Stylesheets/general.css" />
+  <link rel="stylesheet" href="./Stylesheets/q5.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
 
@@ -47,16 +48,57 @@
   <!--Hero-->
   <div class="pt-24 bg-white" >
     <div class="container bg-white px-8 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-      <div class="w-full flex justify-center my-3">
+      <div class="w-full flex justify-center mt-3">
         <p class="text-sm opacity-40 ">Question 5 of 5</p>
       </div>
 
-      <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
-        <div class="w-full flex justify-center">What would you do if you got this mail?</div>
+      <h1 class="w-full my-3 text-2xl lg:text-4xl font-bold">
+        <div class="w-full flex text-center">What would you do if you got this mail?</div>
       </h1>
 
-      <div class="mt-6 mb-8">
-        <img src="./Images/test/scam mail.png" class="h-72 centerEl"></img>
+      <div class="mt-6 mb-8 relative">
+
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 2</div>
+        <img src="Images/test/scam1.png" class="h-80">
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="Images/test/scam2.png" class="h-80">
+        <div class="text">Caption Two</div>
+      </div>
+
+
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
       </div>
     </div>
   </div>
@@ -90,7 +132,7 @@
   <section class="container mx-auto py-6 mb-12 text-white">
     <div class="container px-8 mx-auto flex flex-wrap flex-col md:flex-row">
       <div class="w-full">
-        <a id="letsgo" href"./q5unfort.html"
+        <a id="letsgo" href="./q5unfort.html"
           class="mainColor shadowBtn z-10 mx-auto lg:mx-0 hover:underline text-white font-bold rounded-lg w-52 my-2 py-4 px-8 flex items-center shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           <span class="w-full opacity-80 text-center">Nothing it's fake</span>
         </a>
@@ -109,6 +151,7 @@
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./scripts/script.js"></script>
+  <script src="./scripts/q5.js"></script>
 </body>
 
 </html>

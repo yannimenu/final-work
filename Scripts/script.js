@@ -6,7 +6,7 @@ function check(e) {
   var target = (e && e.target) || (event && event.srcElement);
 
   //Nav Menu
-  if (!checkParent(target, navMenuDiv)) {
+  if (!checkParent(target, navMenuDiv) && navMenuDiv) {
     // click NOT on the menu
     if (checkParent(target, navMenu)) {
       // click on the link
