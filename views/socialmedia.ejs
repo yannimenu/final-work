@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    Eindwerk Yanni
+  </title>
+  <meta name="description" content="Simple landind page" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link rel="stylesheet" href="../public/Stylesheets/general.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: "Proxima Nova, Regular"
+    }
+
+    .gradient {
+      background: #082434;
+    }
+  </style>
+
+</head>
+
+<body class="leading-normal tracking-normal text-white" style="font-family: 'proxima-nova', sans-serif;">
+  <!--Nav-->
+  <nav id="header" class="fixed w-full z-30 top-0 bg-white text-black">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+      <div class="pl-4 flex items-center">
+        <a class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
+          PRIVATEER
+        </a>
+      </div>
+      <div class="block lg:hidden pr-4">
+        <button id="nav-toggle"
+          class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <svg class="h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="fill: black;">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-gray-100 lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        id="nav-content">
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="mr-3">
+            <div class="flex">
+              <a class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4 w-1/2" href="./cookies">Cookies</a>
+
+              <div  class="w-1/2 flex items-center justify-end">
+                <img src="public/Images/SVG/cookie-black.svg" class="w-6"></img>
+              </div>
+            </div>
+          </li>
+          <li class="mr-3">
+            <div class="flex">
+              <a class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4 w-1/2" href="./browser">Browser</a>
+
+              <div  class="w-1/2 flex items-center justify-end">
+                <img src="public/Images/SVG/new/browser icon-black.svg" class="w-6"></img>
+              </div>
+          </div>
+          </li>
+          <li class="mr-3">
+            <div class="flex">
+              <a class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4 w-1/2"href="./ipaddress">Location</a>
+              
+              <div  class="w-1/2 flex items-center justify-end">
+                <img src="public/Images/SVG/locatie-black.svg" class="w-6"></img>
+              </div>
+            </div>
+          </li>
+          <li class="mr-3">
+            <div class="flex">
+              <a class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4 w-1/2" href="./socialmedia">Social Media</a>
+
+              <div  class="w-1/2 flex items-center justify-end">
+                <img src="public/Images/SVG/new/Icon awesome-facebook-black.svg" class="w-6"></img>
+              </div>
+            </div>
+          </li>
+          <li class="mr-3">
+            <div class="flex">
+              <a class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4  w-1/2" href="./webcams">Webcams</a>
+
+              <div class="w-1/2 flex items-center justify-end">
+                <img src="public/Images/SVG/new/webcam-black.svg" class="w-6"></img>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+  </nav>
+
+  <!--Hero-->
+  <div class="pt-24 bg-white">
+    <div class="container bg-white px-8 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <div class="flex flex-col w-full justify-center text-center">
+        <div class="mt-6 ">
+          <img src="public/Images/SVG/sm.svg" class="h-32 centerEl"></img>
+        </div>
+
+        <h1 class="my-3 text-xl lg:text-4xl text-black font-bold leading-tight">
+          SOCIAL MEDIA
+        </h1>
+        <p class="leading-normal text-sm opacity-80 text-black lg:text-2xl mb-8">
+          Over 3+ billion uses social media but not a lot
+          of people go into their privacy settings to
+          check What access they give. T hat is why l'll be
+          showing you what access you give by default
+          and what you can disable/enable.
+        </p>
+      </div>
+      <!--Right Col-->
+      <div class="w-full md:w-3/5 py-3 text-center">
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full bg-transparent">
+    <svg width="100%" height="100%" viewBox="0 0 389 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1.78598e-07 36.5C1.78598e-07 36.5 22.5 1.61236 126 14C288.5 29.1024 389 14.3706 389 1.61236C389 -11.1459 389 56 389 56H1.78598e-07L1.78598e-07 36.5Z" fill="#082434"/>
+      </svg>
+      
+   </div>
+  <div class="gradient">
+  <section class="container mx-auto pb-6 pb-12 text-white">
+    <div class="container px-8 mx-auto flex flex-wrap flex-col md:flex-row">
+      <div class="flex pb-4 lg:pb-12 ">
+        <div class="w-1/5 flex items-center justify-center cursor-pointer">
+          <img id="img1"
+            class="w-2/3 centerEl opacity-60 cursor-pointer focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            src="public/Images/SVG/new/Icon awesome-twitter.svg">
+          </img>
+        </div>
+
+        <div class="w-1/5 flex items-center justify-center cursor-pointer">
+          <img id="imgLeft"
+            class="w-1/5 centerEl cursor-pointer focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            src="public/Images/SVG/arrowleft.svg">
+          </img>
+        </div>
+
+        <div class="w-1/5 h-20 lg:h-64 flex items-center justify-center cursor-pointer">
+          <img
+            class="w-full centerEl cursor-pointer focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            id="img2" src="public/Images/SVG/new/Icon awesome-facebook.svg">
+          </img>
+        </div>
+
+        <div class="w-1/5 flex items-center justify-center cursor-pointer">
+          <img id="imgRight"
+            class="w-1/5 centerEl cursor-pointer focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            src="public/Images/SVG/arrowright.svg">
+          </img>
+        </div>
+
+        <div class="w-1/5 flex items-center justify-center cursor-pointer">
+          <img id="img3"
+            class="w-2/3 centerEl opacity-60 cursor-pointer focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            src="public/Images/SVG/new/Icon awesome-instagram.svg">
+          </img>
+        </div>
+      </div>
+
+      <span id="txtfacebook">
+        <div class="flex flex-col">
+          <img src="public/Images/SVG/light bulb.svg" class="w-6 mb-3"></img>
+        </div>
+        <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
+            What does Facebook do with my data?
+        </h1>
+        <p class="leading-normal text-sm opacity-80 lg:text-2xl mb-16">
+            The majority of this information is used for
+            marketing purposes. Facebook collects
+            information on what you buy, what your friends
+            buy, the groups you join (to see your interests)
+            , shows you ads that the company thinks you
+            may like.
+        </p>
+
+        <div class="flex flex-col">
+          <img src="public/Images/SVG/light bulb.svg" class="w-6 mb-3"></img>
+        </div>
+        <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
+          Which apps did I give permission to collect my data?
+        </h1>
+        <p class="leading-normal text-sm opacity-80 lg:text-2xl mb-8">
+          To check this follow the following steps:
+        </p>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 1:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Go to</span>
+          <span class="font-bold display-inline">Settings</span>
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 2:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Select</span>
+          <span class="font-bold display-inline">Settings & Privacy</span>
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 3:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Select</span>
+          <span class="font-bold display-inline">Apps & Websites</span>
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 4:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Either click</span>
+          <span class="font-bold display-inline">View and edit</span>
+          <span class="opacity-80 display-inline">to see what data each app collects or</span>
+          <span class="font-bold display-inline">Remove</span>
+          <span class="opacity-80 display-inline">the apps you don't need anymore.</span>
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 5:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+            <span class="opacity-80 display-inline">
+                Last but not least, make sure to do the FB
+                Security Checkup to make sure your account is
+                up to date with the most important settings
+                such as
+            </span>
+          <span class="font-bold display-inline">2 Factor Authentication, Login alerts & a Strong password</span>
+        </div>
+
+        <div class="w-full mt-10 mb-16">
+            <a target="_blank" href="https://www.facebook.com/help/799880743466869">
+                <button 
+                    class="centerEl btnColor shadowBtn mx-auto lg:mx-0 hover:underline text-white rounded-lg w-62 my-6 py-4 px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                    <span class="opacity-80">Facebook Security Check →</span>
+                </button>
+            </a>
+        </div>
+
+        <div class="flex flex-col mt-10">
+          <img src="public/Images/SVG/ip.svg" class="w-6 mb-3"></img>
+        </div>
+        <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
+            How do I disable my location for Facebook?
+        </h1>
+
+        <div class="text-sm lg:text-2xl mb-16">
+            <span class="opacity-80 display-inline">  It's very easy. Go to the </span>
+            <span class="font-bold display-inline">Settings</span>
+            <span class="opacity-80 display-inline">on your phone, then navigate to</span>
+            <span class="font-bold display-inline">Location → Apps → Permissions</span>
+            <span class="opacity-80 display-inline">and choose for yourself which apps may know your location.</span>
+        </div>
+
+      </span>
+
+      <span id="txttwitter" class="hidden">
+        <div class="flex flex-col">
+          <img src="public/Images/SVG/light bulb.svg" class="w-6 mb-3"></img>
+        </div>
+        <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
+          Lorem ipsum dolor sit 
+        </h1>
+        <p class="leading-normal text-sm opacity-80 lg:text-2xl mb-16">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <div class="flex flex-col">
+          <img src="public/Images/SVG/light bulb.svg" class="w-6 mb-3"></img>
+        </div>
+        <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
+          Lorem ipsum dolor sit 
+        </h1>
+        <p class="leading-normal text-sm opacity-80 lg:text-2xl mb-8">
+          Lorem ipsum dolor sit :
+        </p>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 1:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <!-- <span class="font-bold display-inline">Settings</span> -->
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 2:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <!-- <span class="font-bold display-inline">Settings & Privacy</span> -->
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 3:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <!-- <span class="font-bold display-inline">Apps & Websites</span> -->
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 4:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <!-- <span class="font-bold display-inline">View and edit</span>
+          <span class="opacity-80 display-inline">to see what data each app collects or</span>
+          <span class="font-bold display-inline">Remove</span>
+          <span class="opacity-80 display-inline">the apps you don't need anymore.</span> -->
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 5:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </span>
+          <!-- <span class="font-bold display-inline">2 Factor Authentication, Login alerts & a Strong password</span> -->
+        </div>
+
+        <div class="w-full mt-10 mb-16">
+          <button
+            class="centerEl btnColor shadowBtn mx-auto lg:mx-0 hover:underline text-white rounded-lg w-62 my-6 py-4 px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <span class="opacity-80">Lorem ipsum dolor sit amet →</span>
+          </button>
+        </div>
+
+        <div class="flex flex-col mt-10">
+          <img src="public/Images/SVG/ip.svg" class="w-6 mb-3"></img>
+        </div>
+        <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
+          Lorem ipsum dolor sit 
+        </h1>
+
+        <div class="text-sm lg:text-2xl mb-16">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </span>
+          <!-- <span class="font-bold display-inline">Settings</span>
+          <span class="opacity-80 display-inline">on your phone, then navigate to</span>
+          <span class="font-bold display-inline">Location App → Permissions</span>
+          <span class="opacity-80 display-inline">and choose for yourself which apps may know your location.</span> -->
+        </div>
+      </span>
+
+      <span id="txtinstagram" class="hidden">
+
+        <div class="flex flex-col">
+          <img src="public/Images/SVG/light bulb.svg" class="w-6 mb-3"></img>
+        </div>
+        <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
+          Lorem ipsum dolor sit 
+        </h1>
+        <p class="leading-normal text-sm opacity-80 lg:text-2xl mb-16">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <div class="flex flex-col">
+          <img src="public/Images/SVG/light bulb.svg" class="w-6 mb-3"></img>
+        </div>
+        <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
+          Lorem ipsum dolor sit 
+        </h1>
+        <p class="leading-normal text-sm opacity-80 lg:text-2xl mb-8">
+          Lorem ipsum dolor sit :
+        </p>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 1:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <!-- <span class="font-bold display-inline">Settings</span> -->
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 2:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <!-- <span class="font-bold display-inline">Settings & Privacy</span> -->
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 3:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <!-- <span class="font-bold display-inline">Apps & Websites</span> -->
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 4:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <!-- <span class="font-bold display-inline">View and edit</span>
+          <span class="opacity-80 display-inline">to see what data each app collects or</span>
+          <span class="font-bold display-inline">Remove</span>
+          <span class="opacity-80 display-inline">the apps you don't need anymore.</span> -->
+        </div>
+
+        <p class="w-full leading-normal text-sm font-bold lg:text-2xl textcolorgr">
+          Step 5:
+        </p>
+        <div class="text-sm lg:text-2xl mb-4">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </span>
+          <!-- <span class="font-bold display-inline">2 Factor Authentication, Login alerts & a Strong password</span> -->
+        </div>
+
+        <div class="w-full mt-10 mb-16">
+          <button
+            class="centerEl btnColor shadowBtn mx-auto lg:mx-0 hover:underline text-white rounded-lg w-62 my-6 py-4 px-8 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <span class="opacity-80">Lorem ipsum dolor sit amet →</span>
+          </button>
+        </div>
+
+        <div class="flex flex-col mt-10">
+          <img src="public/Images/SVG/ip.svg" class="w-6 mb-3"></img>
+        </div>
+        <h1 class="w-full my-3 text-xl lg:text-4xl font-bold">
+          Lorem ipsum dolor sit 
+        </h1>
+
+        <div class="text-sm lg:text-2xl mb-16">
+          <span class="opacity-80 display-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </span>
+          <!-- <span class="font-bold display-inline">Settings</span>
+          <span class="opacity-80 display-inline">on your phone, then navigate to</span>
+          <span class="font-bold display-inline">Location App → Permissions</span>
+          <span class="opacity-80 display-inline">and choose for yourself which apps may know your location.</span> -->
+        </div>
+      </span>
+    </div>
+  </section>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="public/scripts/script.js"></script>
+  <script src="public/scripts/socialmedia.js"></script>
+</body>
+
+</html>
