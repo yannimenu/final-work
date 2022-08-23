@@ -22,9 +22,9 @@ function displayText() {
     var img2 = states[idx];
     var img3 = states[getIdx(+1)];
 
-    $("#img1").attr("src",`./Images/SVG/${img1}.png`);
-    $("#img2").attr("src",`./Images/SVG/${img2}.png`);
-    $("#img3").attr("src",`./Images/SVG/${img3}.png`);
+    $("#img1").attr("src",`./images/SVG/${img1}.png`);
+    $("#img2").attr("src",`./images/SVG/${img2}.png`);
+    $("#img3").attr("src",`./images/SVG/${img3}.png`);
 
     $("#downloadTxt").html(stateDescr[idx]);
     $("#descrField").html(stateDescr[idx]);

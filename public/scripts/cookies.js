@@ -23,9 +23,9 @@ function displayText() {
     var img2 = imgs[idx];
     var img3 = imgs[getIdx(+1)];
 
-    $("#img1").attr("src",`./Images/SVG/${img1}`);
-    $("#img2").attr("src",`./Images/SVG/${img2}`);
-    $("#img3").attr("src",`./Images/SVG/${img3}`);
+    $("#img1").attr("src",`./images/SVG/${img1}`);
+    $("#img2").attr("src",`./images/SVG/${img2}`);
+    $("#img3").attr("src",`./images/SVG/${img3}`);
 
     $(`#txt${toTake}`).show();
 
